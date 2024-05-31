@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <div class="search">
+        <input
+          type="text"
+          placeholder="enter city name"
+          spellcheck="false"
+          class="city-input"
+        />
+        <img
+          src="./images/search-icon2.jpg"
+          alt="not found"
+          class="search-btn"
+        />
+      </div>
+      <div class="weather">
+        <img src="./images/sunny.png" alt="not found" class="weather-image" />
+        <h1 class="temp">55 °C</h1>
+        <h1 class="city">Amravati</h1>
+        <div class="details">
+          <div class="col">
+            <img src="images/humidity.jpg" alt="humidity" class="humidImg" />
+            <h1 class="humidity">25%</h1>
+          </div>
+          <div class="col">
+            <img src="images/air-speed.png" alt="air-speed" class="airImg" />
+            <h1 class="speed">25km/hr</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
